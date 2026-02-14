@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Valentine Little Girl</title>
+    <link rel="stylesheet" href="templatemo-sleeky-pro.css">
+    <!-- TemplateMo 598 Sleeky Pro -->
+</head>
+<body>
+
+<!-- Header -->
+<header class="header" id="header">
+    <nav class="nav-container">
+        <a href="#home" class="logo-container">
+            <svg class="logo-svg" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 20 C2 10 2 40 20 32 L28 28 Z" fill="#ff7aa2"/>
+                <path d="M56 20 C62 10 62 40 44 32 L36 28 Z" fill="#ff7aa2"/>
+                <ellipse cx="32" cy="28" rx="6" ry="5" fill="#ff5c8a"/>
+                <path d="M26 32 L18 60 L30 48 Z" fill="#ff7aa2"/>
+                <path d="M38 32 L46 60 L34 48 Z" fill="#ff7aa2"/>
+            </svg>
+            <span class="logo-text">Hanyunyu</span>
+        </a>
+
+        <ul class="nav-menu" id="navMenu">
+            <li><a href="#home" class="nav-link active">Home</a></li>
+            <li><a href="#services" class="nav-link">Little Girl</a></li>
+        </ul>
+
+        <button class="hamburger" id="hamburger">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+<section id="home" class="hero">
+    <div class="slider-container">
+        <div class="progress-ring">
+            <div class="progress-bar" id="progressBar"></div>
+        </div>
+
+        <div class="slider-stage" id="sliderStage"></div>
+
+        <div class="text-overlay" id="textOverlay">
+            <h2 class="slide-title" id="slideTitle">The Queen</h2>
+            <p class="slide-description" id="slideDescription">
+                A queen like the sun, shining over Solo, even when a Mulyono already stands in the neighborhood..
+            </p>
+        </div>
+
+        <button class="nav-arrow prev" id="prevArrow" aria-label="Previous"></button>
+        <button class="nav-arrow next" id="nextArrow" aria-label="Next"></button>
+
+        <div class="controls">
+            <button class="control-btn play-pause-btn" id="playPauseBtn" title="Play/Pause">
+                <span class="play-icon"></span>
+                <span class="pause-icon"></span>
+            </button>
+        </div>
+
+        <div class="dots" id="dots"></div>
+        <div class="thumbnails-container" id="thumbnails"></div>
+    </div>
+</section>
+
+<!-- Services Section -->
+
+<!-- Contact Section (form dihilangkan) -->
+<section id="contact" class="section contact">
+    <div class="section-container">
+        <div class="section-header">
+            <h2 class="section-title">Happy Valentine 💝</h2>
+            <p class="section-subtitle">
+                For you who read this…<br>
+You are the reason today feels warmer 💕<br>
+You are deeply loved, more than you know 💖<br><br>
+May your day be as sweet as my thoughts of you 🍓🎂
+            </p>
+        </div>
+    </div>
+</section>
+
+
+        <div class="contact-content">
+            <div class="contact-form">
+                <form id="contactForm">
+                    <!-- FORM DIHILANGKAN -->
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="templatemo-sleeky-scripts.js"></script>
+ <audio id="bg-music" loop>
+    <source src="images/lagu.mp3" type="audio/mpeg">
+</audio>
+
+<script>
+document.addEventListener("click", function() {
+    document.getElementById("bg-music").play();
+}, { once: true });
+</script>
+</body>
+</html>
